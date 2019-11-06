@@ -1,0 +1,80 @@
+.logo {
+    width: 20%;
+    height: 200px;
+    display: inline-block;
+}
+
+.logo-img {
+    height: 100%;
+}
+
+body {
+    width: 100%;
+    height: 100%;
+    margin:0;
+    font-family: 'Montserrat', sans-serif;
+    color:#fe7171;
+    overflow: hidden;
+}
+
+.menu {
+    width:79%;
+    height: 200px;
+    display: inline-block;
+    vertical-align: top;
+    position: relative;
+}
+
+.header:before {
+    content: "";
+    display: inline-block;
+    vertical-align: middle;
+    height: 100%;
+  }
+
+.header {
+    height: 200px;
+    width: 100%;
+}
+
+ul{
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    margin: 0;
+}
+
+li {
+    vertical-align: middle;
+    display: inline-flex;
+    margin: 0 5% 0 5%;
+}
+
+.background {
+    float:right;
+    height:auto;
+    width:90%;
+    opacity:0.7;
+}
+
+.example_d {
+    color: #fe7171 !important;
+    text-transform: uppercase;
+    padding: 25px;
+    background-color: white;
+    border: 4px solid #fe7171 !important;
+    border-radius: 6px;
+    position: absolute;
+    top: 50%;
+    left: 45%;
+    transition: all 0.3s ease 0s;
+    text-decoration: none;
+}
+
+.example_d:hover {
+    color: white !important;
+    border-radius: 50px;
+    background:#fe7171;
+    border-color: white !important;
+    transition: all 0.3s ease 0s;
+}
