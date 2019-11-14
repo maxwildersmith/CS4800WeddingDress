@@ -16,6 +16,10 @@ body {
     color:#fe7171;
     overflow: hidden;
 }
+a {
+  color: #fe7171;
+  text-decoration: none; /* no underline */
+}
 
 .menu {
     width:79%;
@@ -50,6 +54,11 @@ li {
     margin: 0 5% 0 5%;
 }
 
+li > img {
+    position: relative;
+    height: 40px;
+}
+
 .background {
     float:right;
     height:auto;
@@ -77,9 +86,4 @@ li {
     background:#fe7171;
     border-color: white !important;
     transition: all 0.3s ease 0s;
-}
-
-li > img {
-    position: relative;
-    height: 40px;
 }
