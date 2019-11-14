@@ -78,3 +78,8 @@ li {
     border-color: white !important;
     transition: all 0.3s ease 0s;
 }
+
+li > img {
+    position: relative;
+    height: 40px;
+}
